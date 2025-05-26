@@ -10,5 +10,7 @@ JDK21 vagy újabb verzió szükséges a futtatáshoz
 Fordítás és futtatás:
 Powershellben:
 javac -d out -cp src (Get-ChildItem -Path src -Filter *.java -Recurse | ForEach-Object { $_.FullName })
+
 jar cfm fung.jar MANIFEST.MF -C out .
+
 java -jar fung.jar
