@@ -1,0 +1,3 @@
+/load -p TestFiles/test3_arrange.txt
+growy mb4 -t t1
+/save Asserts/test3_output.txt

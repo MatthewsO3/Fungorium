@@ -1,0 +1,3 @@
+/load -p TestFiles/test5_arrange.txt
+growb t2
+/save Asserts/test5_output.txt

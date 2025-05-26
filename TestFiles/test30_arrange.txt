@@ -1,0 +1,9 @@
+/addt -n t1 -t d -c y -m 5
+/addt -n t2 -t t -c y -m 5
+/altt t1 -n t2
+/addm -i 1 -n myc1
+/addmb -n mb1 -o 1 -s t1
+/addmy -n my1 -b mb1 -s t1 -t t2
+/adde -i 2 -n ent1
+/addi -n insect1 -o 2 -s t2
+/adds spore1 -t w -c 8 -s t2

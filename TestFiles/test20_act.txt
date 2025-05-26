@@ -1,0 +1,4 @@
+/load -p TestFiles/test20_arrange.txt
+/trig -nr
+/trig -nr
+/save Asserts/test20_output.txt

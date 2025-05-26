@@ -1,0 +1,3 @@
+/load -p TestFiles/test23_arrange.txt
+eati my1
+/save Asserts/test23_output.txt

@@ -1,0 +1,4 @@
+/load -p TestFiles/test22_arrange.txt
+/trig -nr
+release mb1 -s a -t t3
+/save Asserts/test22_output.txt

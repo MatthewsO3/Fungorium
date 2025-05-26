@@ -1,0 +1,5 @@
+/load -p TestFiles/test25_arrange.txt
+cut insect1 -my my1
+/trig -nr
+/trig -nr
+/save Asserts/test25_output.txt

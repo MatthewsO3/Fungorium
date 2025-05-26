@@ -1,0 +1,15 @@
+/load -p TestFiles/test19_arrange.txt
+release mb1 -s a -t t1
+/trig -nr
+/trig -nr
+release mb1 -s a -t t1
+/trig -nr
+/trig -nr
+release mb1 -s a -t t1
+/trig -nr
+/trig -nr
+release mb1 -s a -t t1
+/trig -nr
+/trig -nr
+release mb1 -s a -t t1
+/save Asserts/test19_output.txt

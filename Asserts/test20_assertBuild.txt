@@ -1,0 +1,14 @@
+/addt -n t1 -t d -c y -m 5
+/addt -n t2 -t t -c y -m 5
+/addt -n t3 -t t -c y -m 5
+/altt t1 -n t2
+/altt t1 -n t3
+/altt t3 -n t2
+/addm -i 1 -n myc1
+/addmb -n mb1 -o 1 -s t2
+/addmy -n my1 -b mb1 -s t2 -t t1
+/addmy -n my3 -b mb1 -s t3 -t t2
+/altmy my3 -c n
+/altmb mb1 -l 1
+/altmy my1 -l 1
+/trig -nr

@@ -1,0 +1,3 @@
+/load -p TestFiles/test33_arrange.txt
+move insect1 -t t3
+/save Asserts/test33_output.txt

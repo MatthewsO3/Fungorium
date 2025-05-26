@@ -1,0 +1,33 @@
+/load -p TestFiles/test4_arrange.txt
+move insect1 -t t2
+move insect1 -t t1
+/trig -nr
+move insect1 -t t2
+move insect1 -t t1
+/trig -nr
+move insect1 -t t2
+move insect1 -t t1
+/trig -nr
+move insect1 -t t2
+move insect1 -t t1
+/trig -nr
+move insect1 -t t2
+move insect1 -t t1
+/trig -nr
+move insect1 -t t2
+move insect1 -t t1
+/trig -nr
+move insect1 -t t2
+move insect1 -t t1
+/trig -nr
+move insect1 -t t2
+move insect1 -t t1
+/trig -nr
+move insect1 -t t2
+move insect1 -t t1
+/trig -nr
+move insect1 -t t2
+move insect1 -t t1
+/trig -nr
+move insect1 -t t2
+/save Asserts/test4_output.txt

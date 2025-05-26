@@ -1,0 +1,87 @@
+/addt -n dt1 -t d -c y -m 5 -x 650 -y 300
+/addt -n t2 -t t -c y -m 5 -x 650 -y 150
+/addt -n t3 -t t -c y -m 7 -x 750 -y 200
+/addt -n t4 -t t -c y -m 5 -x 850 -y 250
+/addt -n t5 -t t -c y -m 8 -x 900 -y 350
+/addt -n dt6 -t d -c y -m 4 -x 750 -y 400
+/addt -n t7 -t t -c y -m 5 -x 700 -y 500
+/addt -n lt8 -t l -c y -m 5 -x 600 -y 500
+/addt -n t9 -t t -c y -m 6 -x 500 -y 450
+/addt -n t10 -t t -c y -m 2 -x 500 -y 350
+/addt -n t11 -t t -c y -m 5 -x 500 -y 250
+/addt -n t12 -t t -c y -m 5 -x 550 -y 150
+/addt -n dt13 -t d -c y -m 5 -x 450 -y 100
+/addt -n lt14 -t l -c y -m 3 -x 350 -y 50
+/addt -n dt15 -t d -c y -m 5 -x 300 -y 150
+/addt -n t16 -t t -c y -m 5 -x 200 -y 50
+/addt -n lt17 -t l -c y -m 5 -x 150 -y 200
+/addt -n t18 -t t -c y -m 5 -x 350 -y 500
+/addt -n t19 -t t -c y -m 5 -x 400 -y 600
+/addt -n dt20 -t d -c y -m 5 -x 650 -y 600
+/addt -n lt21 -t l -c y -m 5 -x 850 -y 600
+/addt -n lt22 -t d -c y -m 5 -x 950 -y 150
+/addt -n lt23 -t d -c y -m 5 -x 1000 -y 300
+/addt -n dt24 -t d -c y -m 5 -x 300 -y 300
+/addt -n t25 -t t -c y -m 5 -x 200 -y 400
+/addt -n t26 -t t -c y -m 5 -x 950 -y 450
+/addt -n lt27 -t l -c y -m 5 -x 850 -y 50
+/addt -n t28 -t t -c y -m 5 -x 950 -y 50
+/altt dt1 -n t2
+/altt dt1 -n t3
+/altt dt1 -n t4
+/altt dt1 -n t5
+/altt dt1 -n dt6
+/altt dt1 -n t7
+/altt dt1 -n lt8
+/altt dt1 -n t9
+/altt dt1 -n t10
+/altt dt1 -n t11
+/altt dt1 -n t12
+/altt t2 -n t3
+/altt t2 -n t12
+/altt t3 -n t4
+/altt t4 -n t5
+/altt t5 -n dt6
+/altt dt6 -n t7
+/altt t7 -n lt8
+/altt lt8 -n t9
+/altt t9 -n t10
+/altt t10 -n t11
+/altt t11 -n t12
+/altt t16 -n lt14
+/altt t16 -n dt15
+/altt t16 -n lt17
+/altt lt17 -n dt24
+/altt dt24 -n t25
+/altt t25 -n t18
+/altt t18 -n t19
+/altt t18 -n t9
+/altt t19 -n lt8
+/altt lt14 -n dt13
+/altt dt13 -n t12
+/altt dt20 -n lt8
+/altt dt20 -n t7
+/altt lt21 -n t7
+/altt t26 -n dt6
+/altt t26 -n lt21
+/altt t26 -n lt23
+/altt lt23 -n lt22
+/altt lt22 -n t28
+/altt t28 -n lt27
+/altt lt27 -n lt22
+/altt lt22 -n t4
+/altt lt23 -n t4
+/adde -i 3 -n ent1 -c #0007FF
+/adde -i 4 -n ent2 -c #8DFF00
+/addi -n ins1 -o 3 -s dt1
+/addi -n ins2 -o 3 -s t10
+/addi -n ins3 -o 4 -s t7
+/addi -n ins4 -o 4 -s t9
+/addm -i 1 -n myc1 -c #C70000
+/addm -i 2 -n myc2 -c #FFFF00
+/addmb -n mb1 -o 1 -s t2
+/addmb -n mb2 -o 1 -s lt22
+/addmb -n mb3 -o 2 -s dt13
+/addmb -n mb4 -o 2 -s lt8
+/adds spore1 -t a -c 7 -s dt1
+/adds spore2 -t a -c 7 -s dt1

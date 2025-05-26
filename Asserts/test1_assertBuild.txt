@@ -1,0 +1,6 @@
+/addt -n t1 -t d -c y -m 5
+/addt -n t2 -t t -c y -m 5
+/altt t1 -n t2
+/addm -i 1 -n myc1
+/addmb -n mb1 -o 1 -s t2
+/altmb mb1 -l 4

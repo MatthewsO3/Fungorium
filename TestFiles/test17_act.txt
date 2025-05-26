@@ -1,0 +1,3 @@
+/load -p TestFiles/test17_arrange.txt
+release mb1 -s s -t t2
+/save Asserts/test17_output.txt
