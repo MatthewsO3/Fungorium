@@ -13,7 +13,6 @@ A strategic board game implementation developed in Java as part of the Software 
 - [Project Structure](#project-structure)
 - [Documentation](#documentation)
 - [Team](#team)
-- [License](#license)
 
 ## 🎯 About
 
@@ -117,22 +116,5 @@ The project includes comprehensive documentation (~240 pages) that covers:
 
 This project was developed as part of the Software Project Laboratory course by a collaborative 5-person team, demonstrating effective teamwork and software engineering practices.
 
-## 🎮 How to Play
-
-[Add specific gameplay instructions here once you provide more details about the game mechanics]
-
-## 🐛 Known Issues
-
-[List any known issues or limitations]
-
-## 🤝 Contributing
-
-This project was developed as part of a university course. For academic integrity, please do not submit this code as your own work.
-
-## 📄 License
-
-This project was developed for educational purposes as part of a university course. Please respect academic integrity guidelines when referencing or using this code.
-
----
 
 **Note**: This project demonstrates the complete software development lifecycle from conception to delivery, including comprehensive documentation and collaborative development practices.
